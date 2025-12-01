@@ -33,7 +33,7 @@ class TripsScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.grey[300],
                       borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
-                      image: const DecorationImage(
+                      image: DecorationImage(
                         image: NetworkImage('https://picsum.photos/seed/travel$index/800/400'),
                         fit: BoxFit.cover,
                       ),
